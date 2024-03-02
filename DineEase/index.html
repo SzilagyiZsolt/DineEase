@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="restaurants.js"></script>
+    <script src="top3restaurant.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <section class="Nav_Hero">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="images/Logovector.svg" alt="Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about_us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <main>
+            <div class="container">
+                <div class="row" id="HeroSection">
+                    <div class="col-md-6 col-xs-12 explore-text front">
+                        <h1>DineEase: Exceptional Dining Awaits.</h1>
+                        <p>Dive into culinary wonders with DineEase. We curate top-rated restaurants, each with distinct flavors and ambiance. From international dishes to traditional delights and gastronomic adventures, find your perfect spot with DineEase.</p>
+                        <button type="button" class="btn btn-primary"><img src="images/Search Iconvector.svg"  alt="Search Iconvector"> Explore Restaurants</button>
+                    </div>
+                    <div class="col-md-6 col-xs-12 front">
+                        <img src="images/Hero Illustrationvector.svg" alt="Hero Illustrationvector">
+                    </div>
+                    <div class="col-md-2 col-xs-4 strip3 behind_container">
+                        <div class=" behind"></div>
+                    </div>
+                    <div class="col-md-2 col-xs-4 strip4 behind_container">
+                        <div class=" behind"></div>
+                    </div>
+                    <div class="col-md-2 col-xs-4 strip5 behind_container">
+                        <div class=" behind"></div>
+                    </div>
+                    <div class="col-md-2 col-xs-4 strip2 behind_container">
+                        <div class=" behind"></div>
+                    </div>
+                    <div class="col-md-2 col-xs-4 strip behind_container">
+                        <div class=" behind"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section class="restaurant">
+        <div class="container">
+                <div class="row" id="top3">
+                    <h1>Featured Restaurants</h1>
+                    <h4>Discover Unforgettable Dining Destinations</h4>
+                    <div class="row card-margin-bottom-top3" id="top3restorants">
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="row feedback-text-left">
+                <div class="col-lg-6">
+                    <div class="col-lg-12 feedback-title-position">
+                        <div class="position-absolute"><img src="images/Quote markvector.svg" alt="Quote"></div>
+                        <div class="position-relative feedback-title"><h1>Delightful<br>Experiences Sharded<br>by Our Quest</h1></div>
+                        </div>
+                    <div class="col-lg-12">
+                        <div class="card1 rounded-3 p-5">
+                            <p><img class="feedback-quotesmark-sizing" src="images/Quote markvector.svg" alt="">Exquisite flavors, impeccable<br> service, and a memorable<br> ambiance – DineEase made our<br> celebration truly special!</p>
+                            <p class="feedback-bold-p">Robert & Emily</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="col-lg-12">
+                        <div class="card2 rounded-3 p-5">
+                            <p><img class="feedback-quotesmark-sizing" src="images/Quote markvector.svg" alt=""> With DineEase, we've uncovered culinary treasures right in our city. Every dining recommendation feels like an exclusive invitation to a world of flavors. We thought we knew our local dining scene, but DineEase introduced us to so much more.</p>
+                            <p class="feedback-bold-p">Emma & Jacob</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="card3 rounded-3 p-5">
+                            <img class="feedback-quotesmark-sizing" src="images/Quote markvector.svg" alt="">
+                            <p>DineEase guided us to hidden gems we never knew existed! We've become food adventurers, thanks to this platform.</p>
+                            <p class="feedback-bold-p">Lisa & Mark</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="search">
+        <h1>Find Your Perfect Dining Spot</h1>
+        <h4>Search by Cuisine, Location, or Name</h4>
+        <div class="container"> 
+            <div class="row">
+                <div class="row height d-flex justify-content-center align-items-center">
+                        <div class="form">
+                            <i class="fa fa-search"></i>
+                            <input type="text" class="form-control form-input" placeholder="Search anything...">
+                            <span class="left-pan"><img src="images/Filter Iconvector.svg" alt="" srcset=""></span>
+                        </div> 
+                    <button class="btn button-height rounded-3"><i class="fa-solid fa-magnifying-glass" style="color: #B197FC;"></i></button> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="restaurants"></div>
+        </div>
+        <div class="container mb-5">
+            <a href="#" class="card-link"> Show more <img src="images/Chevron Down Iconvector.svg"></a>
+        </div>
+    </section>
+    <footer class="container-fluid bg-dark text-white">
+        <div class="container d-flex justify-content-between row mx-auto py-5">
+            <div class="col-6">
+                <img src="images/logomark.png" alt="Logomark">
+                <p><a href="privacy.html">Privacy Policy</a></p>
+                <p>+36 30 123 4567 support@dineease.com</p>
+                <p>&COPY; 2024 - All rights reserved</p>
+            </div>
+            <div class="col-4">
+                <p>Follow Us</p>
+                <p>
+                    <img src="images/Facebook Iconvector.svg"alt="Facbook">
+                    <img src="images/Instagram Iconvector.svg" alt="Instagram"> 
+                    <img src="images/Twitter Iconvector.svg" alt="Twitter">
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
